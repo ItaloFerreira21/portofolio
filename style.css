@@ -3,13 +3,35 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-size: 1em;
 }
 
 html, body {
+    color: white;
     min-height: 100vh;
+    background-color: darkgrey;
+    background-image: url(direito-imagem.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 header {
     text-align: center;
     
+}
+
+section  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0px;
+    
+}
+p.centralizado {
+    text-align: center;
+    font-size: 3em;
 }
