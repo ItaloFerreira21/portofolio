@@ -8,9 +8,9 @@
 
 html, body {
     color: white;
-    min-height: 100vh;
+    min-height: 98vh;
     background-color: darkgrey;
-    background-image: url(direito-imagem.jpg);
+    background-image: url(direito-pin.jpg);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,11 +27,15 @@ section  {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 98vh;
     padding: 0px;
     
 }
 p.centralizado {
     text-align: center;
     font-size: 3em;
+}
+section {
+    text-align: center;
+    font-size: 1.3em;
 }
