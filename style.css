@@ -6,7 +6,7 @@
     font-size: 1em;
 }
 
-html, body {
+ body {
     color: white;
     min-height: 98vh;
     background-color: darkgrey;
@@ -23,19 +23,17 @@ header {
     
 }
 
-section  {
+main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 98vh;
-    padding: 0px;
+    text-align: center;
+    font-size: 3em;   
+}
+article {
+    text-align: center;
     
 }
-p.centralizado {
-    text-align: center;
-    font-size: 3em;
-}
-section {
-    text-align: center;
-    font-size: 1.3em;
-}
+
+
