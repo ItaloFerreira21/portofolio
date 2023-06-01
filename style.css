@@ -31,27 +31,34 @@ header {
     
 }
 
-nav ul{
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
+nav {
+    background-color: rgba(255, 228, 196, 0.043);
+    padding: 10px;
+    text-align: center;
+    box-shadow: opx 6px 6px rgba(0, 0, 0, 0.224);
+    
 }
-nav li {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: block;
 
+nav a {
+    color: rgba(255, 153, 0, 0.514);;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bolder;
+    border-radius: 4px;
+    
 }
+
+    
+
+
 
 main p {
    padding: 40px;
    text-align: center;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 20px;
+   font-variant-caps: small-caps;
    color: #f7ef525e;
  
 }
