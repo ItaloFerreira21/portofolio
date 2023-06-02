@@ -32,21 +32,26 @@ header {
 }
 
 nav {
-    background-color: rgba(255, 228, 196, 0.043);
+   
     padding: 10px;
     text-align: center;
-    box-shadow: opx 6px 6px rgba(0, 0, 0, 0.224);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.114);
     
 }
 
+    
+
 nav a {
     color: rgba(255, 153, 0, 0.514);;
-    display: block;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     font-weight: bolder;
     border-radius: 4px;
     
+    
+}
+nav a:hover {
+    text-decoration: underline;
 }
 
     
