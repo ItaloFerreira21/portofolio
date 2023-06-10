@@ -14,6 +14,7 @@ header {
     text-align: center;
     grid-column: 1;
     grid-row: 1;
+    padding: 20px 40px;
 }
 
 nav {
@@ -50,7 +51,22 @@ main {
     grid-column: 2;
     grid-row: 1;
     position: relative;
+    margin-bottom: 50px;
        
+}
+#sobre p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+#sobre strong {
+    color: rgba(255, 0, 0, 0.674);
+}
+#sobre br {
+    display: block;
+    margin-bottom: 10px;
 }
 main::before {
     content: "";position: absolute;
@@ -67,9 +83,12 @@ main::before {
 
 section {
     flex: 1;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     padding: 20px;
   }
+section > div{
+    padding-bottom: 20px;
+}  
 
 section h2 {
     margin-top: 0;
@@ -83,7 +102,19 @@ section h2 {
     margin-top: 0;
     margin-bottom: 20px;
     text-align: justify;
+    
 }
+#contato a {
+    text-decoration: none;
+    font-size: bolder;
+    color: #5513DC;
+}
+#contato a:hover {
+    text-decoration: underline;
+    background-color: #420fa870;
+}
+
+
 #projetos div {
     padding-bottom: 10px;
 }
@@ -105,6 +136,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    display: flex;
+    align-items: center;
     
 }
 
