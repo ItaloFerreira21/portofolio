@@ -42,6 +42,7 @@ nav a {
     vertical-align: middle;
 }
 main {
+    background-color: rgba(128, 128, 128, 0.224);
     font-family: Arial, Helvetica, sans-serif;  
     display: grid;
     grid-template-columns: 1fr 1fr;
