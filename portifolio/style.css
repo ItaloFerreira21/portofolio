@@ -84,6 +84,18 @@ section h2 {
     margin-bottom: 20px;
     text-align: justify;
 }
+#projetos div {
+    padding-bottom: 10px;
+}
+#projetos a {
+    text-decoration: none;
+    color: #24085C;
+}
+#projetos a:hover {
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: bolder;
+}
 
 footer {
     background-color:  #5513DC;
